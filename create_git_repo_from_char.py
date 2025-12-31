@@ -13,7 +13,6 @@ docs --> README.md
 """
 '''
 flowchart_input = """
-'''
 
 wool-plm-agent-system/
 ├── .github/                # CI/CD workflows for testing agents,  # GitHub-specific configurations
@@ -273,7 +272,6 @@ wool-plm-agent-system/
 ├── README.md               # Project overview and lifecycle goals, Documentation of the self-evolving PLM system
 └── setup.py   
 
-'''
 """
 
 def generate_structure_from_flow(flow_text):
