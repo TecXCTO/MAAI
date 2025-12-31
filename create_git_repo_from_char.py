@@ -3,7 +3,8 @@ from pathlib import Path
 
 # --- Your Flowchart Logic ---
 # Syntax: Parent --> Child
-'''flowchart_input = """
+
+flowchart_input = """
 Root --> src
 Root --> docs
 Root --> tests
@@ -11,6 +12,7 @@ src --> main.py
 src --> utils.py
 docs --> README.md
 """
+
 '''
 flowchart_input = """
 
@@ -273,6 +275,7 @@ wool-plm-agent-system/
 └── setup.py   
 
 """
+'''
 
 def generate_structure_from_flow(flow_text):
     lines = flow_text.strip().split('\n')
